@@ -1,0 +1,17 @@
+cut -c 3
+cut -c 1-4
+cut -c 13-
+cut -d ' ' -f 4 ambil field awal yang karakternya 4
+cut -d ' ' -f 1,2,3
+
+head -n 22 | tail -n 11 (baris 12 - 22)
+tr '()' '[]' (ngubah () jadi [])
+sort -t$'\t' -nr -k2 (sort pemisah tab, numerik dibalik kolom ke 2)
+uniq -c | cut -c 7-  (di itung jumlah muncul dihapus spasinya ada 7)
+
+# -u will only print unique lines.
+
+
+
+
+uniq -u
