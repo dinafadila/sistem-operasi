@@ -139,7 +139,8 @@ find [PATH] [TEST]...
 -atime [+-]N
 -mtime [+-]N
 -empty
--type [dfl]
+-type [dfl] file 
+
 
 # wc
 Mencetak jumlah baris, kata, dan karakter dari suatu file.
